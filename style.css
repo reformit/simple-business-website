@@ -1,0 +1,115 @@
+/******************************
+ *  Common Styles
+ ******************************/
+
+/** Normalization **/
+body {
+  margin: 0;
+  font-family: "Spectral", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b5f57;
+  padding: 1.25em;
+}
+
+.company-logo {
+  max-width: 50px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: rgb(241, 199, 143);
+}
+
+nav a:not(:last-child) {
+  margin-right: 1.5em;
+}
+
+.section {
+  padding: 1.5em;
+  min-height: 500px;
+}
+
+/******************************
+ *  Home Page Styles
+ ******************************/
+.hero-section {
+  background-image: url("/assets/hero-section-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 500;
+}
+
+.hero-section-text-block {
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+}
+.site-title {
+  font-weight: 800;
+  font-size: 4.5em;
+  line-height: 65px;
+  color: #69504e;
+}
+
+.site-subtitle {
+  font-weight: 600;
+  font-size: 3em;
+  color: #4b5f57;
+  margin-bottom: 0.5em;
+}
+
+.cta {
+  color: white;
+  text-decoration: none;
+  background-color: #69504e;
+  display: block;
+  width: 125px;
+  text-align: center;
+  padding: 0.5em 0.25em;
+  border-radius: 5px;
+  border: 2px solid #69504e;
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
+.cta:hover {
+  background-color: transparent;
+  color: #696969;
+}
+/******************************
+ *  About Us Page Styles
+ ******************************/
